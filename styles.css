@@ -580,7 +580,7 @@ body {
         rgba(0, 0, 0, 0) 0%,
         rgba(17, 17, 17, 0.6) 100%
         ),
-        url('/images/Notary1.jpg');
+        url('/Images/Notary1.jpg');
     background-size: cover;
     position: relative;
     color: #fff;
@@ -596,7 +596,7 @@ body {
         rgba(0, 0, 0, 0) 0%,
         rgba(17, 17, 17, 0.6) 100%
     ),
-    url('/images/Phone1.jpg');
+    url('/Images/Phone1.jpg');
     background-size: cover;
     position: relative;
     color: #fff; 
