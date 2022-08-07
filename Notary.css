@@ -204,3 +204,40 @@ body {
         transform: translateY(-8px) rotate(-45deg); 
     }
 }
+/* Bodyshit */
+
+.quad {
+    width: 70%;
+    float: left;
+    font-size: 1.5rem;
+    background-color: #2a85b0;
+    background-image: linear-gradient(to top, #2a85b0 0% , #26d9a6 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+            background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    margin-left:80px;
+}
+
+#notarytwo {
+    width:30%;
+    float: right;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+#fifthish {
+    margin-top: 200px;
+    margin-left:300px;
+    font-size: 1.2rem;
+    background-color: #2a85b0;
+    background-image: linear-gradient(to top, #2a85b0 0% , #26d9a6 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+            background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+}
