@@ -19,7 +19,7 @@ body {
 
  /*navbar*/
 .navbar{ 
-    background: #131313; 
+    background: #23035f; 
     height: 80px; 
     display: flex; 
     justify-content: center; 
@@ -44,8 +44,8 @@ body {
 } 
 
 #navbar__logo { 
-    background-color: #2a85b0; 
-    background-image: linear-gradient(to top, #26d0a6 0%, #2a85b0 100%); 
+    background-color: #a31313; 
+    background-image: linear-gradient(to top, #fc3e3e 0%, #a31313 100%); 
     background-size: 100%; 
     -webkit-background-clip: text; 
             background-clip: text;
@@ -75,7 +75,7 @@ body {
 } 
 
 .navbar__links { 
-    color: #2a85b0; 
+    color: #a31313; 
     display: flex; 
     align-items: center; 
     justify-content: center; 
@@ -103,25 +103,25 @@ body {
     border: none; 
     outline: none; 
     border-radius: 4px; 
-    background: #2a85b0; 
+    background: #a31313; 
     color: #fff;  
 } 
 
 .button:hover { 
-    background: #26d0a6; 
+    background: #fc3e3e; 
     transition: all 0.3s ease; 
 } 
 
 .navbar__links:hover { 
-    color: #26d0a6; 
+    color: #fc3e3e; 
     transition: all 0.3s ease; 
 } 
 
 /*Hero Section*/
 .main__content h1 {
     font-size: 4rem;
-    background-color: #2a85b0;
-    background-image: linear-gradient(to top, #2a85b0 0% , #26d9a6 100%);
+    background-color: #a31313;
+    background-image: linear-gradient(to top, #a31313 0% , #fc3e3e 100%);
     background-size: 100%;
     -webkit-background-clip: text;
             background-clip: text;
@@ -132,8 +132,8 @@ body {
 
 .main__content h2 {
     font-size: 4rem;
-    background-color: #2a85b0;
-    background-image: linear-gradient(to top, #b721ff 0% , #ff8177 100%);
+    background-color: #a31313;
+    background-image: linear-gradient(to top, #a31313 0% , #fc3e3e 100%);
     background-size: 100%;
     -webkit-background-clip: text;
             background-clip: text;
@@ -146,7 +146,7 @@ body {
     margin-top: 1rem;
     font-size: 2rem;
     font-weight: 700;
-    color: #2585b0;
+    color: #a31313;
 }
 
 .main__btn {
@@ -177,7 +177,7 @@ body {
     left: 0;
     width: 0;
     height: 100%;
-    background: #26d9a6;
+    background: #fc3e3e;
     transition: all 0.35s;
     border-radius: 4px;
 }
@@ -192,7 +192,7 @@ body {
 
 /*Home desktop background & such*/
 .main {
-    background: color #141414
+    background: color #23035f;
 }
 
 .main__container {
@@ -202,7 +202,7 @@ body {
     justify-self: center;
     margin: 0 auto;
     height: 90vh;
-    background-color: #141414;
+    background-color: #23035f;
     z-index: 1;
     width: 100%;
     padding: 0 50px;
@@ -210,8 +210,8 @@ body {
 
     .main__content h1 {
         font-size: 4rem;
-        background-color: #2a85b0;
-        background-image: linear-gradient(to top, #2a85b0 0% , #26d9a6 100%);
+        background-color: #a31313;
+        background-image: linear-gradient(to top, #a31313 0% , #fc3e3e 100%);
         background-size: 100%;
         -webkit-background-clip: text;
                 background-clip: text;
@@ -222,8 +222,8 @@ body {
 
     .main__content h2 {
         font-size: 4rem;
-        background-color: #2a85b0;
-        background-image: linear-gradient(to top, #b721ff 0% , #ff8177 100%);
+        background-color: #a31313;
+        background-image: linear-gradient(to top, #a31313 0% , #fc3e3e 100%);
         background-size: 100%;
         -webkit-background-clip: text;
                 background-clip: text;
@@ -236,13 +236,13 @@ body {
         margin-top: 1rem;
         font-size: 2rem;
         font-weight: 700;
-        color: #2585b0;
+        color: #a31313;
     }
     
 
 .main__btn {
     font-size: 1rem;
-    background-image: linear-gradient(to top, #26d9a6 0%, #2a85b0 100%);
+    background-image: linear-gradient(to top, #fc3e3e 0%, #a31313 100%);
     padding: 14px 32px;
     border: none;
     border-radius: 4px;
@@ -268,7 +268,7 @@ body {
     left: 0;
     width: 0;
     height: 100%;
-    background: #26d9a6;
+    background: #fc3e3e;
     transition: all 0.35s;
     border-radius: 4px;
 }
@@ -305,11 +305,11 @@ body {
         transition: all 0.5s ease; 
         height: 50vh; 
         z-index: -1; 
-        background: #131313; 
+        background: #23035f; 
     } 
 
     .navbar__menu.active { 
-        background: #141414; 
+        background: #23035f; 
         top: 100%; 
         opacity: 1; 
         transition: all 0.5s ease; 
@@ -380,7 +380,7 @@ body {
     
     /*Desktop Hero*/
     .main {
-        background: color #141414
+        background: color #23035f
     }
 
     .main__container {
@@ -390,7 +390,7 @@ body {
         justify-self: center;
         margin: 0 auto;
         height: 90vh;
-        background-color: #141414;
+        background-color: #23035f;
         z-index: 1;
         width: 100%;
         max-width: 1300px;
@@ -401,8 +401,8 @@ body {
 
         .main__content h1 {
             font-size: 4rem;
-            background-color: #2a85b0;
-            background-image: linear-gradient(to top, #2a85b0 0% , #26d9a6 100%);
+            background-color: #a31313;
+            background-image: linear-gradient(to top, #a31313 0% , #fc3e3e 100%);
             background-size: 100%;
             -webkit-background-clip: text;
                     background-clip: text;
@@ -413,8 +413,8 @@ body {
 
         .main__content h2 {
             font-size: 4rem;
-            background-color: #2a85b0;
-            background-image: linear-gradient(to top, #b721ff 0% , #ff8177 100%);
+            background-color: #a31313;
+            background-image: linear-gradient(to top, #a31313 0% , #fc3e3e 100%);
             background-size: 100%;
             -webkit-background-clip: text;
                     background-clip: text;
@@ -427,7 +427,7 @@ body {
             margin-top: 1rem;
             font-size: 2rem;
             font-weight: 700;
-            color: #2585b0;
+            color: #a31313;
         }
 
         .logo_img img{
@@ -437,7 +437,7 @@ body {
         
     .main__btn {
         font-size: 1rem;
-        background-image: linear-gradient(to top, #26d9a6 0%, #2a85b0 100%);
+        background-image: linear-gradient(to top, #fc3e3e 0%, #a31313 100%);
         padding: 14px 32px;
         border: none;
         border-radius: 4px;
@@ -463,7 +463,7 @@ body {
         left: 0;
         width: 0;
         height: 100%;
-        background: #26d9a6;
+        background: #fc3e3e;
         transition: all 0.35s;
         border-radius: 4px;
     }
@@ -537,7 +537,7 @@ body {
 
 /* Services Section .CSS */
 .services {
-    background: #141414;
+    background: #23035f;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -545,14 +545,14 @@ body {
 }
 
 .services h1 {
-    background-color: #26d9a6;
+    background-color: #fc3e3e;
     background-image: linear-gradient(
     to right,
-    #26d9a6 0%,
-    #23b792 0%,
-    #21a3a6 0%,
-    #2585b0 0%,
-    #2135a6 100%
+    #fc3e3e 0%,
+    #db5252 0%,
+    #ee7373 0%,
+    #b41010 0%,
+    #a31313 100%
     );
     background-size: 100%;
     margin-bottom: 5rem;
@@ -620,7 +620,7 @@ body {
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #2585b0;
+    background: #a31313;
     position: absolute;
     top: 440px;
     left: 30px;
@@ -661,7 +661,7 @@ body {
 
 /*footer css*/
 .footer__container {
-    background-color: #141414;
+    background-color: #23035f;
     padding: 5rem 0;
     display: flex;
     flex-direction: column;
@@ -670,7 +670,7 @@ body {
 }
 
 #footer__logo {
-    color: #2585b0;
+    color: #a31313;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -704,7 +704,7 @@ body {
 }
 
 .footer__link--items > h2 {
-    color: #2585b0;
+    color: #a31313;
 }
 
 .footer__link--items a {
@@ -714,7 +714,7 @@ body {
 }
 
 .footer__link--items a:hover {
-    color: #26d9a6;
+    color: #fc3e3e;
     transition: 0.3s ease-out;
 }
 .bottomlogo {
@@ -723,7 +723,7 @@ body {
 
 /* Social Icons*/
 social__icon--link {
-    color: #2585b0;
+    color: #a31313;
     font-size: 24px;
 }
 
@@ -750,7 +750,7 @@ social__icon--link {
 }
 
 .social__logo {
-    color: #2585b0;
+    color: #a31313;
     justify-self: flex-start;
     margin-left: 20px;
     cursor: pointer;
