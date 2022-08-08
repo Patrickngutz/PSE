@@ -1,7 +1,7 @@
 body { 
     height: 50%; 
     overflow: auto; 
-    background-color: #23035f;
+    background-color: #0e2b2f;
     box-sizing: border-box;
     margin: 0;
     padding: 0; 
@@ -9,7 +9,7 @@ body {
   } 
  
 .navbar{ 
-    background: #23035f; 
+    background: #0e2b2f; 
     height: 80px; 
     display: flex; 
     justify-content: center; 
