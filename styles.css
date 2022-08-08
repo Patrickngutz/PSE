@@ -19,7 +19,7 @@ body {
 
  /*navbar*/
 .navbar{ 
-    background: #23035f; 
+    background: #0e2b2f; 
     height: 80px; 
     display: flex; 
     justify-content: center; 
@@ -192,7 +192,7 @@ body {
 
 /*Home desktop background & such*/
 .main {
-    background: color #0e2b2f;
+    background-color: #0e2b2f;
 }
 
 .main__container {
@@ -305,11 +305,11 @@ body {
         transition: all 0.5s ease; 
         height: 50vh; 
         z-index: -1; 
-        background: #23035f; 
+        background: #0e2b2f; 
     } 
 
     .navbar__menu.active { 
-        background: #23035f; 
+        background: #0e2b2f; 
         top: 100%; 
         opacity: 1; 
         transition: all 0.5s ease; 
@@ -537,7 +537,7 @@ body {
 
 /* Services Section .CSS */
 .services {
-    background: #23035f;
+    background: #0e2b2f;
     display: flex;
     flex-direction: column;
     align-items: center;
