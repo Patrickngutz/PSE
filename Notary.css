@@ -131,7 +131,7 @@ body {
         transition: all 0.5s ease; 
         height: 50vh; 
         z-index: -1; 
-        background: #23035f; 
+        background: #0e2b2f; 
     } 
 
     .navbar__menu.active { 
@@ -231,7 +231,7 @@ body {
 #fifthish {
     margin-top: 200px;
     margin-left:300px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     background-color: #a31313;
     background-image: linear-gradient(to top, #a31313 0% , #fc3e3e 100%);
     background-size: 100%;
@@ -240,4 +240,10 @@ body {
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color:transparent;
+}
+
+.Table1 {
+    color: #F4CC09;
+    margin-left: 450;
+    font-size: 1.5rem
 }
