@@ -44,8 +44,7 @@ body {
 } 
 
 #navbar__logo { 
-    background-color: #a31313; 
-    background-image: linear-gradient(to top, #fc3e3e 0%, #a31313 100%); 
+    background-color: #ebe25c;  
     background-size: 100%; 
     -webkit-background-clip: text; 
             background-clip: text;
@@ -75,7 +74,7 @@ body {
 } 
 
 .navbar__links { 
-    color: #a31313; 
+    color: #ebe25c; 
     display: flex; 
     align-items: center; 
     justify-content: center; 
@@ -103,17 +102,17 @@ body {
     border: none; 
     outline: none; 
     border-radius: 4px; 
-    background: #a31313; 
+    background: #ebe25c; 
     color: #fff;  
 } 
 
 .button:hover { 
-    background: #fc3e3e; 
+    background: #F4CC09; 
     transition: all 0.3s ease; 
 } 
 
 .navbar__links:hover { 
-    color: #fc3e3e; 
+    color: #F4CC09; 
     transition: all 0.3s ease; 
 } 
 
@@ -136,9 +135,8 @@ body {
     }
 
     .main__content h1 {
-        font-size: 3rem;
-        background-color: #a31313;
-        background-image: linear-gradient(to top, #a31313 0% , #fc3e3e 100%);
+        font-size: 4rem;
+        background-color: #ebe25c;
         background-size: 100%;
         -webkit-background-clip: text;
                 background-clip: text;
@@ -149,8 +147,7 @@ body {
 
     .main__content h2 {
         font-size: 4.1rem;
-        background-color: #a31313;
-        background-image: linear-gradient(to top, #a31313 0% , #fc3e3e 100%);
+        background-color: #ebe25c;
         background-size: 100%;
         -webkit-background-clip: text;
                 background-clip: text;
@@ -163,13 +160,13 @@ body {
         margin-top: 1rem;
         font-size: 2rem;
         font-weight: 700;
-        color: #a31313;
+        color: #ebe25c;
     }
     
 
 .main__btn {
     font-size: 1rem;
-    background-image: linear-gradient(to top, #fc3e3e 0%, #a31313 100%);
+    background-color: #ebe25c;
     padding: 14px 32px;
     border: none;
     border-radius: 4px;
@@ -195,7 +192,7 @@ body {
     left: 0;
     width: 0;
     height: 100%;
-    background: #fc3e3e;
+    background: #F4CC09;
     transition: all 0.35s;
     border-radius: 4px;
 }
@@ -317,7 +314,7 @@ body {
         justify-self: center;
         margin: 0 auto;
         height: 90vh;
-        background-color: #23035f;
+        background-color: #0e2b2f;
         z-index: 1;
         width: 100%;
         max-width: 1300px;
@@ -328,8 +325,8 @@ body {
 
         .main__content h1 {
             font-size: 4rem;
-            background-color: #a31313;
-            background-image: linear-gradient(to top, #a31313 0% , #fc3e3e 100%);
+            background-color: #ebe25c;
+            background-image: linear-gradient(to top, #ebe25c 0% , #fc3e3e 100%);
             background-size: 100%;
             -webkit-background-clip: text;
                     background-clip: text;
@@ -340,7 +337,7 @@ body {
 
         .main__content h2 {
             font-size: 4rem;
-            background-color: #a31313;
+            background-color: #ebe25c;
             background-image: linear-gradient(to top, #a31313 0% , #fc3e3e 100%);
             background-size: 100%;
             -webkit-background-clip: text;
@@ -354,7 +351,7 @@ body {
             margin-top: 1rem;
             font-size: 2rem;
             font-weight: 700;
-            color: #a31313;
+            color: #ebe25c;
         }
 
         .logo_img img{
@@ -364,7 +361,7 @@ body {
         
     .main__btn {
         font-size: 1rem;
-        background-image: linear-gradient(to top, #fc3e3e 0%, #a31313 100%);
+        background-image: linear-gradient(to top, #fc3e3e 0%, #ebe25c 100%);
         padding: 14px 32px;
         border: none;
         border-radius: 4px;
@@ -390,7 +387,7 @@ body {
         left: 0;
         width: 0;
         height: 100%;
-        background: #fc3e3e;
+        background: #F4CC09;
         transition: all 0.35s;
         border-radius: 4px;
     }
@@ -472,14 +469,14 @@ body {
 }
 
 .services h1 {
-    background-color: #fc3e3e;
+    background-color: #ebe25c;
     background-image: linear-gradient(
     to right,
     #fc3e3e 0%,
     #db5252 0%,
     #ee7373 0%,
     #b41010 0%,
-    #a31313 100%
+    ##ebe25c 100%
     );
     background-size: 100%;
     margin-bottom: 5rem;
@@ -547,7 +544,7 @@ body {
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #a31313;
+    background: #ebe25c;
     position: absolute;
     top: 440px;
     left: 30px;
@@ -597,7 +594,7 @@ body {
 }
 
 #footer__logo {
-    color: #a31313;
+    color: #ebe25c;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -631,7 +628,7 @@ body {
 }
 
 .footer__link--items > h2 {
-    color: #a31313;
+    color: #ebe25c;
 }
 
 .footer__link--items a {
@@ -641,7 +638,7 @@ body {
 }
 
 .footer__link--items a:hover {
-    color: #fc3e3e;
+    color: #F4CC09;
     transition: 0.3s ease-out;
 }
 .bottomlogo {
@@ -650,7 +647,7 @@ body {
 
 /* Social Icons*/
 social__icon--link {
-    color: #a31313;
+    color: #ebe25c;
     font-size: 24px;
 }
 
@@ -677,7 +674,7 @@ social__icon--link {
 }
 
 .social__logo {
-    color: #a31313;
+    color: #ebe25c;
     justify-self: flex-start;
     margin-left: 20px;
     cursor: pointer;
@@ -757,7 +754,7 @@ social__icon--link {
         #img-caption {
             margin: 10px 0 5px 0;
             text-align: center;
-            color: #a31313;
+            color: #ebe25c;
             font-size: 4rem;
         }
         #img-caption h1 {
