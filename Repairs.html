@@ -1,42 +1,39 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="app.js"></script>  
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>Personable Services Etcetera</title> 
-    <link rel="stylesheet" href="app.css" />
+    <title>resurrecTech</title> 
+    <link rel="stylesheet" href="Repairs.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"/>
 </head> 
-<body> 
+<body style="background-color: #1c2120";> 
  
     <!--NavBar Section-->
 
-    <nav class="navbar"> 
-     <div class="navbar__container"> 
-         <a href="/" id="navbar__logo"><i class="fas fa"></i>Personable Services Etcetera</a> 
-         <div class="navbar__toggle" id="mobile-menu"> 
-             <span class="bar"></span> <span class="bar"></span> 
-             <span class="bar"></span> 
-         </div> 
-         <ul class="navbar__menu"> 
-             <li class="navbar__item"> 
-                 <a href="index.html" class="navbar__links">Home</a> 
-             </li> 
-             <li class="navbar__item"> 
-                <a href="NotaryPage.html" class="navbar__links">Notary</a> 
-            </li> 
-            <li class="navbar__item"> 
-                <a href="Repairs.html" class="navbar__links">Repairs</a> 
-            </li> 
-            <li class="navbar__btn"> 
-            <a href="mailto:patrickngutz@outlook.com?subject=subject text" class="button">Schedule An Appointment</a></li> 
-         </ul> 
-     </div> 
- </nav> 
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="Notary.html">Notary</a>
+        <a href="Repairs.html">Repairs</a>
+        <div class="dropdown">
+          <button class="dropbtn">Dropdown
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+        <a href="mailto:patrickngutz@outlook.com?subject=subject text">Schedule an Appointment</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
 
  <!-- Hero Section-->
 
@@ -51,7 +48,7 @@
     </div>
 
 <!--Price Sheet-->
-<div id="poop"> <iframe style=margin-left:20px; width="100%"  height="550" frameborder="0"  scrolling="no" src="https://onedrive.live.com/embed?resid=F6EB1AD7CF869698%217368&authkey=%21AFcEuToSq8aNpKU&em=2&wdAllowInteractivity=False&ActiveCell='iPhone%20Repair'!A1&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True&edesNext=false&ejss=false"></iframe>
+<div id="poop"> <iframe style="float: left; margin-left:20px;" width="72%"  height="550" frameborder="0"  scrolling="no" src="https://onedrive.live.com/embed?resid=F6EB1AD7CF869698%217368&authkey=%21AFcEuToSq8aNpKU&em=2&wdAllowInteractivity=False&ActiveCell='iPhone%20Repair'!A1&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True&edesNext=false&ejss=false"></iframe>
  </div>
     <div id="poop2"> Not sure what’s wrong with your device? We offer free diagnostics for any device and if you bring in more than one device ask about our deals on group repairs and Tempered Glass or Cases
     </div>
