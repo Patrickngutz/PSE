@@ -4,8 +4,9 @@
     padding: 0; 
     font-family: 'Kumbh Sans', sans-serif;  
 } 
+
 body {
-    background-color: #0e2b2f;
+    background-color: #1c2120;
 }
 .homelogo{
     display: flex;
@@ -19,7 +20,7 @@ body {
 
  /*navbar*/
 .navbar{ 
-    background: #0e2b2f; 
+    background: #1c2120; 
     height: 80px; 
     display: flex; 
     justify-content: center; 
@@ -44,7 +45,7 @@ body {
 } 
 
 #navbar__logo { 
-    background-color: #ebe25c;  
+    background-color: #2585b0;  
     background-size: 100%; 
     -webkit-background-clip: text; 
             background-clip: text;
@@ -74,7 +75,7 @@ body {
 } 
 
 .navbar__links { 
-    color: #ebe25c; 
+    color: #2585b0; 
     display: flex; 
     align-items: center; 
     justify-content: center; 
@@ -102,23 +103,23 @@ body {
     border: none; 
     outline: none; 
     border-radius: 4px; 
-    background: #ebe25c; 
+    background: #2585b0; 
     color: #fff;  
 } 
 
 .button:hover { 
-    background: #F4CC09; 
+    background: #2e43d1; 
     transition: all 0.3s ease; 
 } 
 
 .navbar__links:hover { 
-    color: #F4CC09; 
+    color: #2e43d1; 
     transition: all 0.3s ease; 
 } 
 
 /*Home desktop background & such*/
 .main {
-    background: color #0e2b2f;
+    background: color #1c2120;
 }
 
 .main__container {
@@ -128,7 +129,7 @@ body {
     justify-self: center;
     margin: 0 auto;
     height: 90vh;
-    background-color: #0e2b2f;
+    background-color: #1c2120;
     z-index: 1;
     width: 100%;
     padding: 0 50px;
@@ -136,7 +137,7 @@ body {
 
     .main__content h1 {
         font-size: 4rem;
-        background-color: #ebe25c;
+        background-color: #2585b0;
         background-size: 100%;
         -webkit-background-clip: text;
                 background-clip: text;
@@ -147,7 +148,7 @@ body {
 
     .main__content h2 {
         font-size: 4.1rem;
-        background-color: #ebe25c;
+        background-color: #2585b0;
         background-size: 100%;
         -webkit-background-clip: text;
                 background-clip: text;
@@ -160,13 +161,13 @@ body {
         margin-top: 1rem;
         font-size: 2rem;
         font-weight: 700;
-        color: #ebe25c;
+        color: #2585b0;
     }
     
 
 .main__btn {
     font-size: 1rem;
-    background-color: #ebe25c;
+    background-color: #2585b0;
     padding: 14px 32px;
     border: none;
     border-radius: 4px;
@@ -192,7 +193,7 @@ body {
     left: 0;
     width: 0;
     height: 100%;
-    background: #F4CC09;
+    background: #2e43d1;
     transition: all 0.35s;
     border-radius: 4px;
 }
@@ -205,102 +206,122 @@ body {
     width: 100%;
 }
 
-/*Mobile Navbar*/
-
-@media screen and (max-width: 960px) { 
-    .navbar__container { 
-        display: flex; 
-        justify-content: space-between; 
-        height: 80px; 
-        z-index: 1; 
-        width: 100%; 
-        max-width: 1300px; 
-        padding: 0%; 
-    } 
-
-    .navbar__menu { 
-        display: grid; 
-        grid-template-columns: auto; 
-        margin: 0; 
-        width: 100%; 
-        position: absolute; 
-        top: -1000px; 
-        opacity: 0; 
-        transition: all 0.5s ease; 
-        height: 50vh; 
-        z-index: -1; 
-        background: #0e2b2f; 
-    } 
-
-    .navbar__menu.active { 
-        background: #0e2b2f; 
-        top: 100%; 
-        opacity: 1; 
-        transition: all 0.5s ease; 
-        z-index: 99; 
-        height: 50vh; 
-        font-size: 1.6rem; 
-    } 
-
-    #navbar__logo { 
-        padding-left: 25px; 
-    } 
-
-    .navbar__toggle .bar { 
-        width: 25px; 
-        height: 3px; 
-        margin: 5px auto; 
-        transition: all 0.3 ease-in-out; 
-        background: #fff; 
-    } 
-
-    .navbar__item { 
-        width: 100%; 
-    } 
-
-    .navbar__links { 
-        text-align: center; 
-        padding: 2rem; 
-        width: 100%; 
-        display: table; 
-    } 
-
-    #mobile-menu { 
-        position: absolute; 
-        top: 20%; 
-        right: 5%; 
-        transform: translate(5%, 20%); 
-    } 
-
-    .navbar__btn { 
-        padding-bottom: 2rem; 
-    } 
-
-    .button { 
-        display: flex; 
-        justify-content: center; 
-        align-items: center; 
-        width: 80%; 
-        height: 80px; 
-        margin: 0; 
-    } 
-
-    .navbar__toggle .bar { 
-        display: block; 
-        cursor: pointer; 
-    } 
-
-    #mobile-menu.is-active .bar:nth-child(2) { 
-        opacity: 0; 
-    } 
-
-    #mobile-menu.is-active .bar:nth-child(1) { 
-        transform: translateY(8px) rotate(45deg); 
-    } 
-
-    #mobile-menu.is-active .bar:nth-child(3) { 
-        transform: translateY(-8px) rotate(-45deg); 
+/*mobile shit*/
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #1c2120;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .active {
+    background-color: #2585b0;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+  
+  /* Dropdown container - needed to position the dropdown content */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Style the dropdown button to fit inside the topnav */
+  .dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  /* Style the dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Style the links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: #1c2120;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a dark background on topnav links and the dropdown button on hover */
+  .topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: #2e43d1;
+    color: white;
+  }
+  
+  /* Add a grey background to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    color: #1c2120;
+  }
+  
+  /* Show the dropdown menu when the user moves the mouse over the dropdown button */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child), .dropdown .dropbtn {
+      display: none;
     }
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .topnav.responsive .dropdown {float: none;}
+    .topnav.responsive .dropdown-content {position: relative;}
+    .topnav.responsive .dropdown .dropbtn {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
     
     /*Desktop Hero*/
     .main {
@@ -314,7 +335,7 @@ body {
         justify-self: center;
         margin: 0 auto;
         height: 90vh;
-        background-color: #0e2b2f;
+        background-color: #1c2120;
         z-index: 1;
         width: 100%;
         max-width: 1300px;
@@ -325,8 +346,8 @@ body {
 
         .main__content h1 {
             font-size: 4rem;
-            background-color: #ebe25c;
-            background-image: linear-gradient(to top, #ebe25c 0% , #fc3e3e 100%);
+            background-color: #2585b0;
+            background-image: linear-gradient(to top, #2e43d1 0% , #2585b0 100%);
             background-size: 100%;
             -webkit-background-clip: text;
                     background-clip: text;
@@ -337,8 +358,8 @@ body {
 
         .main__content h2 {
             font-size: 4rem;
-            background-color: #ebe25c;
-            background-image: linear-gradient(to top, #a31313 0% , #fc3e3e 100%);
+            background-color: #2585b0;
+            background-image: linear-gradient(to top, #2585b0 0% , #2e43d1 100%);
             background-size: 100%;
             -webkit-background-clip: text;
                     background-clip: text;
@@ -351,7 +372,7 @@ body {
             margin-top: 1rem;
             font-size: 2rem;
             font-weight: 700;
-            color: #ebe25c;
+            color: #2585b0;
         }
 
         .logo_img img{
@@ -361,7 +382,7 @@ body {
         
     .main__btn {
         font-size: 1rem;
-        background-image: linear-gradient(to top, #fc3e3e 0%, #ebe25c 100%);
+        background-image: linear-gradient(to top, #2585b0 0%, #2e43d1 100%);
         padding: 14px 32px;
         border: none;
         border-radius: 4px;
@@ -387,7 +408,7 @@ body {
         left: 0;
         width: 0;
         height: 100%;
-        background: #F4CC09;
+        background: #2e43d1;
         transition: all 0.35s;
         border-radius: 4px;
     }
@@ -401,7 +422,7 @@ body {
     }
 
 
-}
+
 
 
 /* Mobile Responsive*/
@@ -461,7 +482,7 @@ body {
 
 /* Services Section .CSS */
 .services {
-    background: #0e2b2f;
+    background: #1c2120;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -469,15 +490,8 @@ body {
 }
 
 .services h1 {
-    background-color: #ebe25c;
-    background-image: linear-gradient(
-    to right,
-    #fc3e3e 0%,
-    #db5252 0%,
-    #ee7373 0%,
-    #b41010 0%,
-    ##ebe25c 100%
-    );
+    background-color: #2585b0;
+    background-image: #2585b0 100%;
     background-size: 100%;
     margin-bottom: 5rem;
     font-size: 2.5rem;
@@ -544,7 +558,7 @@ body {
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #ebe25c;
+    background: #2585b0;
     position: absolute;
     top: 440px;
     left: 30px;
@@ -585,7 +599,7 @@ body {
 
 /*footer css*/
 .footer__container {
-    background-color: #0e2b2f;
+    background-color: #1c2120;
     padding: 5rem 0;
     display: flex;
     flex-direction: column;
@@ -594,7 +608,7 @@ body {
 }
 
 #footer__logo {
-    color: #ebe25c;
+    color: #2585b0;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -628,7 +642,7 @@ body {
 }
 
 .footer__link--items > h2 {
-    color: #ebe25c;
+    color: #2585b0;
 }
 
 .footer__link--items a {
@@ -638,7 +652,7 @@ body {
 }
 
 .footer__link--items a:hover {
-    color: #F4CC09;
+    color: #2e43d1;
     transition: 0.3s ease-out;
 }
 .bottomlogo {
@@ -647,7 +661,7 @@ body {
 
 /* Social Icons*/
 social__icon--link {
-    color: #ebe25c;
+    color: #2585b0;
     font-size: 24px;
 }
 
@@ -674,7 +688,7 @@ social__icon--link {
 }
 
 .social__logo {
-    color: #ebe25c;
+    color: #1c2120;
     justify-self: flex-start;
     margin-left: 20px;
     cursor: pointer;
@@ -754,7 +768,7 @@ social__icon--link {
         #img-caption {
             margin: 10px 0 5px 0;
             text-align: center;
-            color: #ebe25c;
+            color: #2585b0;
             font-size: 4rem;
         }
         #img-caption h1 {
