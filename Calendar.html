@@ -1,4 +1,6 @@
 <!DOCTYPE html> 
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="app.js"></script> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,37 +17,28 @@
  
     <!--NavBar Section-->
 
-    <nav class="navbar"> 
-     <div class="navbar__container"> 
-         <a href="/" id="navbar__logo"><i class="fas fa"></i>ResurrecTech</a> 
-         <div class="navbar__toggle" id="mobile-menu"> 
-             <span class="bar"></span> <span class="bar"></span> 
-             <span class="bar"></span> 
-         </div> 
-         <ul class="navbar__menu"> 
-             <li class="navbar__item"> 
-                 <a href="index.html" class="navbar__links">Home</a> 
-             </li> 
-             <li class="navbar__item"> 
-                <a href="NotaryPage.html" class="navbar__links">Notary</a> 
-            </li> 
-            <li class="navbar__item"> 
-                <a href="Repairs.html" class="navbar__links">Repairs</a> 
-            </li> 
-            <li class="navbar__btn"> 
-            <a href="mailto:patrickngutz@outlook.com?subject=subject text" class="button">Schedule An Appointment</a></li> 
-             <a href="Calendar.html" class="calendarbutt">Calendar</a>
-         </ul> 
-     </div> 
- </nav> 
-
- <!-- Hero Section-->
-
- 
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="Notary.html">Notary</a>
+        <a href="Repairs.html">Repairs</a>
+        <div class="dropdown">
+          <button class="dropbtn">Dropdown
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+        <a href="mailto:patrickngutz@outlook.com?subject=subject text">Schedule an Appointment</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
 
 <!--Price Sheet-->
-<div id="poop"> <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&src=ZXYwNmhucTN1cTA4MmZwZDFtcXZrY2xjbm9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23009688" style="border:solid 1px #777" width="1902" height="850" frameborder="0" scrolling="no"></iframe> 
- </div>
+    
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&src=ZXYwNmhucTN1cTA4MmZwZDFtcXZrY2xjbm9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23009688" style="border:solid 1px #777" width="100%" height="850" frameborder="0" scrolling="no"></iframe> 
+
     
 
 <!-- Why I'm Elegant-->
